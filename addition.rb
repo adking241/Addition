@@ -1,17 +1,8 @@
-def x
-	do "1 + 1"
-	end
-def y
-	do "4 + 3"
-	end
-def z
- do "3 + 2"
-	end
-def a 
-	do "x + y + z"
-	end
-print "x = #{x}"
-print "y = #{y}"
-print "z = #{z}"
-print "a = #{a}"
+print "Please enter number 1 : ";
+# get the input from the console, 
+val1 = gets;
+print "Please enter number 2 : ";
+val2 = gets;
+# convert the string console inputs to_i (to_integers) and add together
+print "Answer : " , (val1.to_i + val2.to_i), "\n";
 
